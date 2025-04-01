@@ -407,13 +407,13 @@ br.m {
 
 @media screen and (max-width: 1440px) {
     .header-call-to-action-floating-wrapper {
-        top: 670px;
+        top: 88vh;
     }
 }
 
 @media screen and (max-width: 1366px) {
     .header-call-to-action-floating-wrapper {
-        top: 650px;
+        top: 88vh;
     }
 }
 
@@ -431,7 +431,7 @@ br.m {
 
 @media screen and (max-width: 1280px) {
     .header-call-to-action-floating-wrapper {
-        top: 686px;
+        top: 88vh;
     }
 }
 
@@ -608,7 +608,7 @@ br.m {
         line-height: 1;
     }
     .header-call-to-action-floating-wrapper {
-        top: 766px;
+        top: 88vh;
     }
 
 
@@ -903,77 +903,77 @@ br.m {
 
 @media screen and (max-width: 1024px) {
     .header-call-to-action-floating-wrapper {
-        top: 506px;
+        top: 85.139vh;
     }
 }
 
 
 @media screen and (max-width: 912px) {
     .header-call-to-action-floating-wrapper {
-        top: 796px;
+        top: 90vh;
     }
 }
 
 @media screen and (max-width: 820px) {
     .header-call-to-action-floating-wrapper {
-        top: 760px;
+        top: 88vh;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header-call-to-action-floating-wrapper {
-        top: 790px;
+        top: 88vh;
     }
 }
 
 @media screen and (max-width: 600px) {
     .header-call-to-action-floating-wrapper {
-        top: 900px;
+        top: 88vh;
     }
 }
 
 @media screen and (max-width: 540px) {
     .header-call-to-action-floating-wrapper {
-        top: 630px;
+        top: 86vh;
     }
 }
 
 
 @media screen and (max-width: 430px) {
     .header-call-to-action-floating-wrapper {
-        top: 850px;
+        top: 90vh;
     }
 }
 
 
 @media screen and (max-width: 414px) {
     .header-call-to-action-floating-wrapper {
-        top: 810px;
+        top: 90vh;
     }
 }
 
 @media screen and (max-width: 390px) {
     .header-call-to-action-floating-wrapper {
-        top: 770px;
+        top: 90vh;
     }
 }
 
 
 @media screen and (max-width: 375px) {
     .header-call-to-action-floating-wrapper {
-        top: 730px;
+        top: 90vh;
     }
 }
 
 
 @media screen and (max-width: 360px) {
     .header-call-to-action-floating-wrapper {
-        top: 570px;
+        top: 88vh;
     }
 }
 
 @media screen and (max-width: 344px) {
     .header-call-to-action-floating-wrapper {
-        top: 790px;
+        top: 90vh;
     }
 }
