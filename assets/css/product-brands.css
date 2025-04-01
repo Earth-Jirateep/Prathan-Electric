@@ -1,0 +1,531 @@
+.section-select-the-desired-brand {
+    display: flex;
+    justify-content: center;
+    height: 376px;
+}
+.section-select-the-desired-brand-wrapper {
+    display: flex;
+}
+.section-select-the-desired-brand-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1370px;
+    height: 300px;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    gap: 162px;
+}
+.section-select-the-desired-brand-image {
+    display: flex;
+    width: 302px;
+    height: 278px;
+}
+.section-select-the-desired-brand-image img {
+    width: auto;
+}
+.section-select-the-desired-brand-paragraph-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section-select-the-desired-brand-paragraph-top-box {
+    display: flex;
+}
+.section-select-the-desired-brand-paragraph-top {
+    font-family: "kanit-regular";
+    font-size: 40px;
+    color: #414141;
+    line-height: 1;
+}
+.section-select-the-desired-brand-paragraph-bottom-box {
+    display: flex;
+}
+.section-select-the-desired-brand-paragraph-bottom {
+    font-family: "kanit-medium";
+    font-size: 40px;
+    color: #414141;
+    line-height: 1;
+}
+.section-brand-popular {
+    display: flex;
+    justify-content: center;
+    height: 728px;
+    background-color: #F4F4F4;
+    padding-top: 78px;
+}
+.section-brand-popular-wrapper {
+    display: flex;
+    gap: 44px;
+}
+.section-brand-popular-header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    height: 540px;
+    background-color: #003E31;
+    border-radius: 16px;
+    background-image: url(../images/our-product/background-top-box-1.png), url(../images/our-product/background-top-box-2.png);
+    background-position: top left, bottom right -50px;
+    background-repeat: no-repeat;
+    background-size: auto 124px, auto 140px;
+    padding: 0 36px;
+    gap: 42px;
+}
+.section-brand-popular-header-2-box {
+    display: flex;
+}
+.section-brand-popular-header-2 {
+    font-family: "kanit-medium";
+    font-size: 54px;
+    color: #fff;
+    line-height: 1.2;
+}
+.section-brand-popular-header-english-box {
+    display: flex;
+}
+.section-brand-popular-header-english {
+    font-family: "mulish-light";
+    font-size: 32px;
+    color: #00B186;
+    line-height: 1;
+}
+.section-brand-popular-list-container {
+    display: flex;
+    justify-content: center;
+    width: 1230px;
+    height: 540px;
+}
+.section-brand-popular-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 58px;
+}
+
+.section-brand-popular-list-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 240px;
+}
+.section-brand-popular-list-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.section-brand-popular-list-image img {
+    width: auto;
+    border-radius: 8px;
+}
+.section-brand-popular-list-box:hover .section-brand-popular-list-image img {
+    content: "";
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #00B186;
+    border-radius: 8px;
+}
+.section-brand-popular-list-paragraph-box {
+    display: flex;
+}
+.section-brand-popular-list-paragraph {
+    font-family: "kanit-regular";
+    font-size: 16px;
+    color: #003E31;
+    line-height: 1;
+}
+.section-select-brand {
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+.section-select-brand-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+.section-select-brand-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1650px;
+    gap: 26px;
+}
+.section-select-brand-header-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.section-select-brand-header-top-paragraph-box {
+    display: flex;
+}
+.section-select-brand-header-top-paragraph {
+    font-family: "kanit-medium";
+    font-size: 28px;
+    color: #003E31;
+    line-height: 1;
+}
+.section-select-brand-header-top-paragraph span {
+    font-family: "kanit-regular";
+}
+.section-select-brand-header-top-search-container {
+    display: flex;
+}
+.section-select-brand-header-top-clear-box {
+    display: flex;
+}
+.section-select-brand-header-top-clear {
+    font-family: "kanit-regular";
+    font-size: 20px;
+    color: #003E31;
+    line-height: 1;
+    border: 0;
+    background-color: unset;
+    cursor: pointer;
+}
+.section-select-brand-header-top-search-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1650px;
+    height: 128px;
+    border-radius: 18px;
+    background-color: #fff;
+    gap: 32px;
+    padding: 24px 34px;
+}
+.section-select-brand-header-top-search-paragraph-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.section-select-brand-header-top-search-paragraph-box.active {
+    background-color: #00B186;
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+.section-select-brand-header-top-search-paragraph {
+    font-family: "kanit-regular";
+    font-size: 28px;
+    color: #000;
+    line-height: 1;
+}
+.section-select-brand-header-top-search-paragraph-box.active .section-select-brand-header-top-search-paragraph {
+    color: #fff;
+}
+.section-select-brand-header-bottom-container {
+    display: flex;
+    justify-content: center;
+}
+.section-select-brand-header-bottom-wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 18px;
+}
+.section-select-brand-header-bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    height: 224px;
+    margin-bottom: 18px;
+}
+.section-select-brand-header-bottom-image {
+    position: relative;
+    width: 188px;
+    height: 188px;
+}
+.section-select-brand-header-bottom-image img {
+    width: auto;
+    border-radius: 8px;
+}
+.section-select-brand-header-bottom-box:hover .section-select-brand-header-bottom-image img {
+    content: "";
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #00B186;
+    border-radius: 8px;
+}
+.section-select-brand-header-bottom-paragraph-box {
+    display: flex;
+    justify-content: center;
+}
+.section-select-brand-header-bottom-paragraph {
+    font-family: "kanit-regular";
+    font-size: 20px;
+    color: #003E31;
+    line-height: 1;
+}
+.no-brand-message {
+    font-family: "kanit-regular";
+    font-size: 28px;
+    color: #000;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1720px) { 
+    .section-select-the-desired-brand-box {
+        width: 1300px;
+    }
+    .section-brand-popular {
+        height: auto;
+        padding-bottom: 78px;
+    }
+    .section-brand-popular-wrapper {
+        width: 1300px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-brand-popular-list-wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .section-brand-popular-header-box {
+        height: 280px;
+        align-items: center;
+        width: 100%;
+        gap: 16px;
+    }
+    .section-brand-popular-header-2 {
+        text-align: center;
+    }
+    .section-brand-popular-list-container {
+        width: 100%;
+        height: auto;
+    }
+    .section-select-brand-wrapper {
+        align-items: center;
+    }
+    .section-select-brand-header-wrapper {
+        width: 1300px;
+    }
+    .section-select-brand-header-top-search-container {
+        justify-content: center;
+    }
+    .section-select-brand-header-top-search-box {
+        width: 1300px;
+        height: auto;
+        justify-content: flex-start;
+        padding: 24px 56px;
+    }
+    .section-select-brand-header-bottom-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-select-brand-header-bottom-wrapper {
+        grid-template-columns: repeat(6, 1fr);
+        width: 1300px;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) { 
+    .section-select-the-desired-brand-box {
+        width: 1175px;
+    }
+    .section-brand-popular-wrapper {
+        width: 1175px;
+    }
+    .section-brand-popular-list-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .section-select-brand-header-wrapper {
+        width: 1175px;
+    }
+    .section-select-brand-header-top-search-box {
+        width: 1175px;
+    }
+    .section-select-brand-header-bottom-wrapper {
+        grid-template-columns: repeat(5, 1fr);
+        width: 1035px;
+    }
+    
+}
+
+@media screen and (max-width: 1175px) { 
+    .section-select-the-desired-brand-box {
+        width: 900px;
+    }
+    .section-brand-popular-wrapper {
+        width: 900px;
+    }
+    .section-brand-popular-list-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .section-select-brand-header-wrapper {
+        width: 900px;
+    }
+    .section-select-brand-header-top-search-box {
+        width: 900px;
+    }
+    .section-select-brand-header-bottom-wrapper {
+        width: 820px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .section-select-the-desired-brand {
+        height: 41.86vw;
+    }
+    .section-select-the-desired-brand-box {
+        width: 79.535vw;
+        height: 32.558vw;
+        border-radius: 3.721vw;
+        gap: 0;
+    }
+    .section-select-the-desired-brand-image {
+        position: absolute;
+        top: 4.8vw;
+        left: 15.349vw;
+        width: 29.767vw;
+        height: 27.442vw;
+        opacity: 0.1;
+    }
+    .section-select-the-desired-brand-paragraph-box {
+        gap: 2.791vw;
+    }
+    .section-select-the-desired-brand-paragraph-top-box {
+        justify-content: center;
+    }
+    .section-select-the-desired-brand-paragraph-top {
+        font-size: 5.581vw;
+    }
+    .section-select-the-desired-brand-paragraph-bottom {
+        font-family: "kanit-regular";
+        font-size: 5.581vw;
+    }
+    .section-brand-popular {
+        height: 111.395vw;
+        padding-top: 8.372vw;
+    }
+    .section-brand-popular-wrapper {
+        align-items: center;
+        flex-direction: column;
+        gap: 4.651vw;
+        width: 100%;
+    }
+    .section-brand-popular-header-box {
+        align-items: center;
+        width: 90.698vw;
+        height: 37.209vw;
+        border-radius: 2.791vw;
+        background-size: auto 12.458vw, auto 16.292vw;
+        padding: 0;
+        gap: 3.256vw;
+    }
+    .section-brand-popular-header-2 {
+        font-size: 5.581vw;
+    }
+    .section-brand-popular-header-english {
+        font-size: 3.721vw;
+    }
+    .section-brand-popular-list-container {
+        justify-content: flex-start;
+        height: 41.86vw;
+        overflow-x: scroll;
+        width: 100vw;
+    }
+    .section-brand-popular-list-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        width: max-content;
+        gap: 3.021vw;
+        padding: 0 4.186vw;
+    }
+    .section-brand-popular-list-box {
+        width: 32.558vw;
+        height: 38.605vw;
+    }
+    .section-brand-popular-list-image {
+        width: 32.558vw;
+        height: 32.558vw;
+    }
+    .section-brand-popular-list-image img {
+        border-radius: 1.417vw;
+    }
+    .section-brand-popular-list-box:hover .section-brand-popular-list-image img {
+        border: 0;
+        border-radius: 0.417vw;
+    }
+    .section-brand-popular-list-paragraph {
+        font-size: 3.721vw;
+    }
+    .section-select-brand {
+        padding-bottom: 8vw;
+    }
+    .section-select-brand-wrapper {
+        gap: 8.837vw;
+    }
+    .section-select-brand-header-wrapper {
+        align-items: flex-start;
+        width: 100%;
+        gap: 5.116vw;
+    }
+    .section-select-brand-header-top-wrapper {
+        align-items: baseline;
+        gap: 56px;
+    }
+    .section-select-brand-header-top-paragraph {
+        font-family: "kanit-regular";
+        font-size: 5.581vw;
+    }
+    .section-select-brand-header-top-clear {
+        font-size: 3.721vw;
+    }
+    .section-select-brand-header-top-search-box {
+        width: 90.698vw;
+        height: 66vw;
+        border-radius: 3.721vw;
+        gap: 6vw;
+        padding: 2.791vw 5.116vw;
+    }
+    .section-select-brand-header-top-search-paragraph-box.active {
+        padding: 0 5.25vw;
+        border-radius: 7.083vw;
+    }
+    .section-select-brand-header-top-search-paragraph {
+        font-size: 4.651vw;
+    }
+    .section-select-brand-header-bottom-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.326vw;
+    }
+    .section-select-brand-header-bottom-box {
+        width: 28.372vw;
+        height: 34.419vw;
+        margin-bottom: 0.938vw;
+    }
+    .section-select-brand-header-bottom-image {
+        width: 28.372vw;
+        height: 28.372vw;
+    }
+    .section-select-brand-header-bottom-image img {
+        border-radius: 1.395vw;
+    }
+    .section-select-brand-header-bottom-box:hover .section-select-brand-header-bottom-image img {
+        border: 0;
+        border-radius: 0.417vw;
+    }
+    .section-select-brand-header-bottom-paragraph {
+        font-size: 2.791vw;
+    }
+    .no-brand-message {
+        font-size: 4.667vw;
+    }
+}

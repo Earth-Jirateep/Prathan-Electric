@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "notosansthai-bold";
+    src: url('../fonts/NotoSansThai-Bold.ttf');
+}
+@font-face {
+    font-family: "notosansthai-light";
+    src: url('../fonts/NotoSansThai-Light.ttf');
+}
+@font-face {
+    font-family: "notosansthai-medium";
+    src: url('../fonts/NotoSansThai-Medium.ttf');
+}
+@font-face {
+    font-family: "notosansthai-regular";
+    src: url('../fonts/NotoSansThai-Regular.ttf');
+}
+@font-face {
+    font-family: "notosansthai-semibold";
+    src: url('../fonts/NotoSansThai-SemiBold.ttf');
+}
+@font-face {
+    font-family: "notosansthai-thin";
+    src: url('../fonts/NotoSansThai-Thin.ttf');
+}
+
+
+@font-face {
+    font-family: "kanit-bold";
+    src: url('../fonts/Kanit-Bold.ttf');
+}
+@font-face {
+    font-family: "kanit-semiBold";
+    src: url('../fonts/Kanit-SemiBold.ttf');
+}
+@font-face {
+    font-family: "kanit-light";
+    src: url('../fonts/Kanit-Light.ttf');
+}
+@font-face {
+    font-family: "kanit-extralight";
+    src: url('../fonts/Kanit-ExtraLight.ttf');
+}
+@font-face {
+    font-family: "kanit-medium";
+    src: url('../fonts/Kanit-Medium.ttf');
+}
+@font-face {
+    font-family: "kanit-regular";
+    src: url('../fonts/Kanit-Regular.ttf');
+}
+@font-face {
+    font-family: "kanit-thin";
+    src: url('../fonts/Kanit-Thin.ttf');
+}
+
+@font-face {
+    font-family: "mulish-bold";
+    src: url('../fonts/Mulish-Bold.ttf');
+}
+@font-face {
+    font-family: "mulish-semibold";
+    src: url('../fonts/Mulish-SemiBold.ttf');
+}
+@font-face {
+    font-family: "mulish-light";
+    src: url('../fonts/Mulish-Light.ttf');
+}
+@font-face {
+    font-family: "mulish-extraLight";
+    src: url('../fonts/Mulish-ExtraLight.ttf');
+}
+@font-face {
+    font-family: "mulish-medium";
+    src: url('../fonts/Mulish-Medium.ttf');
+}
+@font-face {
+    font-family: "mulish-regular";
+    src: url('../fonts/Mulish-Regular.ttf');
+}

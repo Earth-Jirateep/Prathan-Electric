@@ -1,0 +1,177 @@
+.section-all-article {
+    display: flex;
+    align-items: center;
+    padding: 136px 0 66px;
+    flex-direction: column;
+    height: auto;
+}
+.section-all-article-cover {
+    display: flex;
+    flex-direction: column;
+    width: 1370px;
+    gap: 40px;
+
+}
+.section-all-article-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+.section-innovation-picture {
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+    height: 524px;
+}
+.section-innovation-picture-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section-innovation-picture-box {
+    width: 326px;
+    height: 326px;
+}
+.section-innovation-picture-box {
+    width: auto;
+}
+.section-featured-articles {
+    display: flex;
+    justify-content: center;
+    padding-top: 104px;
+    height: 840px;
+}
+.section-featured-articles-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 832px;
+
+    gap: 48px;
+}
+.section-featured-articles-header-box {
+    display: flex;
+    justify-content: center;
+}
+.section-featured-articles-header {
+    font-family: "kanit-semiBold";
+    font-size: 40px;
+    color: #003E31;
+    line-height: 1;
+}
+.section-featured-articles-cover {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+@media screen and (min-width: 1921px) {
+
+
+}
+
+@media screen and (max-width: 1919px) {
+   
+}
+
+
+@media screen and (max-width: 1720px) {
+    .section-all-article-cover {
+        width: 1300px;
+        align-items: center;
+    }
+    .section-all-article-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        width: 900px;
+    }
+    .section-innovation-picture {
+        height: auto;
+        padding: 80px 0;
+    }
+    .section-innovation-picture-wrapper {
+        flex-wrap: wrap;
+        width: 700px;
+    }
+    .section-featured-articles-cover {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-article-content-box.featured-articles:nth-child(3) {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .section-all-article-cover {
+        width: 1175px;
+    }
+
+}
+
+@media screen and (max-width: 1175px) {
+    .section-all-article-cover {
+        width: 900px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .section-all-article {
+        padding: 11.628vw 0 6vw;
+    }
+    .section-all-article-cover {
+        width: 100%;
+        align-items: center;
+        gap: 8.372vw;
+    }
+    .section-all-article-wrapper {
+        display: grid;
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5.186vw;
+    }
+    .section-innovation-picture {
+        align-items: center;
+        height: 108.372vw;
+        padding: 0;
+    }
+    .section-innovation-picture-wrapper {
+        flex-wrap: wrap;
+        height: 90.233vw;
+        gap: 2.791vw;
+        width: 100%;
+    }
+    .section-innovation-picture-box {
+        width: 43.256vw;
+        height: 43.256vw;
+    }
+    .section-featured-articles {
+        height: 163.721vw;
+        padding-top: 10.698vw;
+    }
+    .section-featured-articles-wrapper {
+        height: 164.186vw;
+        gap: 7.907vw;
+    }
+    .section-featured-articles-header-box {
+        justify-content: flex-start;
+        padding: 0 4.186vw;
+    }
+    .section-featured-articles-header {
+        font-size: 5.581vw;
+    }
+    .section-featured-articles-cover-container {
+        height: 125.581vw;
+        overflow-x: scroll;
+        width: 100vw;
+        padding: 0 4.186vw;
+    }
+    .section-featured-articles-cover {
+        gap: 4.186vw;
+        width: max-content;
+        display: flex;
+    }
+    .section-article-content-box.featured-articles:nth-child(3) {
+        display: flex !important;
+    }
+}

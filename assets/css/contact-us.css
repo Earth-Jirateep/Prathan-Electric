@@ -1,0 +1,380 @@
+.section-contact-us-branch {
+    display: flex;
+    justify-content: center;
+    height: 1258px;
+}
+.section-contact-us-branch-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+.section-contact-us-branch-container {
+    display: flex;
+    gap: 16px;
+}
+.section-contact-us-branch-box-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 370px;
+    height: 540px;
+    background-color: #003E31;
+    border-radius: 16px;
+    background-image: url(../images/our-product/background-top-box-1.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 132px;
+    padding-left: 30px;
+    gap: 28px;
+}
+.section-contact-us-branch-header-box {
+    display: flex;
+}
+.section-contact-us-branch-header {
+    font-family: "kanit-medium";
+    font-size: 44px;
+    color: #fff;
+}
+.section-contact-us-branch-header-english-box {
+    display: flex;
+}
+.section-contact-us-branch-header-english {
+    font-family: "mulish-light";
+    font-size: 36px;
+    color: #00B186;
+    line-height: 1;
+}
+.section-contact-us-branch-box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 540px;
+    border-radius: 16px;
+    background-color: #F0F0F0;
+}
+.section-contact-us-branch-image {
+    width: 530px;
+    height: 326px;
+}
+.section-contact-us-branch-image img {
+    border-radius: 16px;
+}
+.section-contact-us-branch-detail-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 30px 0 0 28px;
+}
+.section-contact-us-branch-detail-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 48px;
+}
+.section-contact-us-branch-detail-1 {
+    font-family: "kanit-semiBold";
+    font-size: 14px;
+    color: #373F45;
+    line-height: 1;
+    width: 90px;
+}
+.section-contact-us-branch-detail-2 {
+    font-family: "kanit-regular";
+    font-size: 14px;
+    color: #373F45;
+    line-height: 1.5;
+    width: 330px;
+}
+.section-contact-us-branch-detail-2 a {
+    color: inherit;
+}
+.section-contact-us-branch-box-3 {
+    display: flex;
+    width: 716px;
+    height: 540px;
+}
+.section-contact-us-branch-google-maps {
+    width: 100%;
+    height: 100%;
+}
+.section-contact-us-branch-google-maps iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.section-fill-in-your-details-to-contact-us {
+    display: flex;
+    justify-content: center;
+    height: 598px;
+    background-color: #F4F4F4;
+    padding-top: 110px;
+}
+.section-fill-in-your-details-to-contact-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+.section-fill-in-your-details-to-contact-us-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section-fill-in-your-details-to-contact-us-header-box {
+    display: flex;
+    justify-content: center;
+}
+.section-fill-in-your-details-to-contact-us-header {
+    font-family: "kanit-medium";
+    font-size: 36px;
+    color: #414141;
+    line-height: 1;
+}
+.section-fill-in-your-details-to-contact-us-header-english-box {
+    display: flex;
+    justify-content: center;
+}
+.section-fill-in-your-details-to-contact-us-header-english {
+    font-family: "mulish-light";
+    font-size: 28px;
+    color: #00B186;
+    line-height: 1;
+}
+.form-container {
+    max-width: 980px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 26px;
+    margin-bottom: 38px;
+}
+.form-group {
+    flex: 1;
+    min-width: 456px;
+}
+.form-group label {
+    font-family: "kanit-semiBold";
+    font-size: 16px;
+    color: #414141;
+    line-height: 1;
+    display: block;
+    margin-bottom: 12px;
+}
+.form-group input {
+    font-family: "kanit-regular";
+    font-size: 14px;
+    color: #414141;
+    line-height: 1;
+    width: 100%;
+    height: 68px;
+    padding: 0 24px;
+    border: 1px solid #414141;
+    border-radius: 8px;
+    background-color: #fff;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+}
+.submit-btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.submit-btn {
+    font-family: "kanit-semiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 456px;
+    height: 68px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #003E31;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.section-content-after-hero-page.contact-us {
+    height: 178px;
+}
+.section-electrical-innovation.contact-us {
+    height: 1010px;
+    background-position: left bottom -320px;
+}
+
+
+@media screen and (max-width: 1919px) {
+    
+}
+
+@media screen and (max-width: 1720px) {
+    .section-contact-us-branch {
+        height: auto;
+        padding-bottom: 110px;
+    }
+    .section-contact-us-branch-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 1300px;
+    }
+    .section-contact-us-branch-box-1 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 270px;
+        padding-left: 0;
+        gap: 18px;
+    }
+    .section-contact-us-branch-header {
+        text-align: center;
+    }
+    .section-electrical-innovation.contact-us {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .section-contact-us-branch-container {
+        width: 1175px;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .section-contact-us-branch-container {
+        width: 900px;
+    }
+    .section-fill-in-your-details-to-contact-us {
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .section-contact-us-branch {
+        height: 418vw;
+    }
+    .section-contact-us-branch-wrapper {
+        gap: 15.814vw;
+    }
+    .section-contact-us-branch-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 3.721vw;
+    }
+    .section-contact-us-branch-box-1 {
+        align-items: center;
+        width: 90.698vw;
+        height: 37.209vw;
+        border-radius: 2.791vw;
+        padding-left: 0;
+        gap: 2.791vw;
+        background-image: url(../images/our-product/background-top-box-1.png), url(../images/our-product/background-top-box-2.png);
+        background-position: top left, bottom right;
+        background-size: auto 13.458vw, auto 13.292vw;
+    }
+    .section-contact-us-branch-header {
+        font-size: 5.581vw;
+    }
+    .section-contact-us-branch-header-english {
+        font-size: 3.721vw;
+    }
+    .section-contact-us-branch-box-2 {
+        width: 90.698vw;
+        height: 91.628vw;
+        border-radius: 2.791vw;
+    }
+    .section-contact-us-branch-image {
+        width: 90.698vw;
+        height: 55.814vw;
+    }
+    .section-contact-us-branch-image img {
+        border-radius: 2.791vw;
+    }
+    .section-contact-us-branch-detail-box {
+        gap: 0.5vw;
+        padding: 5.116vw 0 0 5.116vw;
+    }
+    .section-contact-us-branch-detail-wrapper {
+        gap: 2.5vw;
+    }
+    .section-contact-us-branch-detail-1 {
+        font-size: 2.791vw;
+        width: 18.605vw;
+    }
+    .section-contact-us-branch-detail-2 {
+        font-size: 2.791vw;
+        width: 57.209vw;
+    }
+    .section-contact-us-branch-box-3 {
+        width: 90.698vw;
+        height: 59.535vw;
+    }
+    .section-contact-us-branch-google-maps iframe {
+        border-radius: 2.791vw;
+    }
+    .section-fill-in-your-details-to-contact-us {
+        height: 180.698vw;
+        padding-top: 10.233vw;
+        flex-wrap: nowrap;
+    }
+    .section-fill-in-your-details-to-contact-us-wrapper {
+        gap: 7.837vw;
+    }
+    .section-fill-in-your-details-to-contact-us-header-container {
+        gap: 1.25vw;
+    }
+    .section-fill-in-your-details-to-contact-us-header {
+        font-size: 7.442vw;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .section-fill-in-your-details-to-contact-us-header-english {
+        font-size: 5.581vw;
+    }
+    .form-container {
+        max-width: 100%;
+        border-radius: 0.417vw;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 4.651vw;
+        margin-bottom: 4.651vw;
+    }
+    .form-group {
+        min-width: 90.698vw;
+    }
+    .form-row:nth-of-type(2) .form-group:last-child {
+        margin-bottom: 4vw;
+    }
+    .form-group label {
+        font-size: 4.651vw;
+        margin-bottom: 2.395vw;
+    }
+    .form-group input {
+        font-size: 4.186vw;
+        height: 15.349vw;
+        padding: 0 6vw;
+        border: 0.233vw solid #414141;
+        border-radius: 1.86vw;
+    }
+    .submit-btn {
+        width: 90.698vw;
+        height: 15.349vw;
+        font-size: 4.651vw;
+        border-radius: 1.86vw;
+    }
+    .section-content-after-hero-page.contact-us {
+        height: 34.884vw;
+        padding-top: 6vw;
+    }
+    .section-electrical-innovation.contact-us {
+        height: auto;
+        background-position: left bottom -16.667vw;
+    }
+}

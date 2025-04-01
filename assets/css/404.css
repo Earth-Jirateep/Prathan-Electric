@@ -1,0 +1,102 @@
+.section-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.section-404-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-404-number-box {
+    display: flex;
+    margin-bottom: 24px;
+}
+.section-404-number {
+    font-family: "kanit-regular";
+    font-size: 80px;
+    color: #003E31;
+    line-height: 1;
+}
+.section-404-praragraph-box {
+    display: flex;
+    margin-bottom: 44px;
+}
+.section-404-praragraph {
+    font-family: "kanit-regular";
+    font-size: 30px;
+    color: #003E31;
+    line-height: 1;
+}
+.section-404-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 56px;
+    background-color: #00B186;
+    border-radius: 32px;
+}
+.section-404-button-paragraph {
+    font-family: "kanit-regular";
+    font-size: 24px;
+    color: #fff;
+    line-height: 1;
+}
+
+@media screen and (min-width: 1921px) {
+
+}
+
+@media screen and (max-width: 1919px) {
+    .section-404 {
+        height: 41.667vw;
+    }
+    .section-404-number-box {
+        margin-bottom: 1.25vw;
+    }
+    .section-404-number {
+        font-size: 4.167vw;
+    }
+    .section-404-praragraph-box {
+        margin-bottom: 2.292vw;
+    }
+    .section-404-praragraph {
+        font-size: 1.563vw;
+    }
+    .section-404-button {
+        width: 14.583vw;
+        height: 2.917vw;
+        border-radius: 1.667vw;
+    }
+    .section-404-button-paragraph {
+        font-size: 1.25vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-404 {
+        height: 160vw;
+    }
+    .section-404-number-box {
+        margin-bottom: 4.25vw;
+    }
+    .section-404-number {
+        font-size: 17.167vw;
+    }
+    .section-404-praragraph-box {
+        margin-bottom: 10.292vw;
+    }
+    .section-404-praragraph {
+        font-size: 6.563vw;
+    }
+    .section-404-button {
+        width: 65.116vw;
+        height: 13.023vw;
+        border-radius: 8.667vw;
+    }
+    .section-404-button-paragraph {
+        font-size: 5.581vw;
+    }
+}
